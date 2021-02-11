@@ -49,7 +49,7 @@ function newQuote()  {
 function telegramQuote() {
   const tgquote = quoteText.innerText;
   const author = "Джейсон Стетхем"
-  const telegramUrl = `https://web.telegram.org/#/im?p=@nulevii`;
+  const telegramUrl = `https://t.me/nulevii`;
   window.open(telegramUrl, '_blank');
 }
 

@@ -30,7 +30,7 @@ flex-wrap: wrap;
   border-radius:10px;
   background-color: rgba(255, 255, 255, 0.7);  
   box-shadow: 0px 10px 10px 10px  rgba(0, 0, 0, 0.4);
-  min-width: 40rem;
+  
 
 }
 
@@ -57,7 +57,7 @@ flex-wrap: wrap;
 }
 
 .long-quote {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .fa-quote {
@@ -95,7 +95,7 @@ button  {
   color: rgba(250, 250, 250, 0.9);
   background-color: rgba(90, 88, 88, 0.9);
   outline: none;
-  padding: 0.1rem 3rem;
+  padding: 0.1rem 2rem;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.4);
   
   
@@ -115,7 +115,7 @@ button  {
 
 
 button:active {
-  transform: translate(0.3rem, 0.3rem);
+  transform: translate(0rem, 0.3rem);
   box-shadow: 0 0 0;
   display:
 }
@@ -156,17 +156,40 @@ button:active {
   100% { transform: rotate(360deg); }
 }
 
+
+/* Phone screans */
 @media screen and (max-width: 1000px) {
   .quote-container {
     margin: auto 10px;
+    font-size:2rem;
+    box-shadow: 0px 5px 5px 5px  rgba(0, 0, 0, 0.4);
   }
 
   .quote-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .quote-autor {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    margin-top: 5px;
     }
   .fa-quote {
-      font-size: 2rem;}
+      font-size: 1.7rem;}
+
+
+  .footer {font-size: 0.9rem;
+  bottom:0.3rem;
+  }
+
+
+
+  .fa-telegram{
+    font-size: 2rem;
+  }
+  button  {
+    padding: 0.1rem 1.5rem;
+    font-size: 1rem;
+    margin: 0.1rem 0.1rem;
+  }
+
 }
+
